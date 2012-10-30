@@ -1,5 +1,5 @@
 
-;function ($) {
+;(function ($) {
 
   "use strict"; 
 
@@ -38,4 +38,4 @@
   $.fn._pluginName.Constructor = _className
 
 
-}(window.jQuery);
+})(window.jQuery);
