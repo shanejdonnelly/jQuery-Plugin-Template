@@ -22,11 +22,11 @@
  /* PLUGIN DEFINITION
   * ======================= */
 
-  $.fn._pluginName = function (options) {
+  $.fn._pluginName = function (custom_options) {
     return this.each(function () {
       var 
         $el = $(this),
-        options = $.extend({}, $.fn._pluginName.defaults, options);
+        options = $.extend({}, $.fn._pluginName.defaults, custom_options);
       new _className($el, options)
     })
   }
